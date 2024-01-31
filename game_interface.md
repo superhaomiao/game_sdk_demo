@@ -174,8 +174,8 @@ message json对象字段描述
 | - | - | - |
 | type | Number | 图层操作类型 |
 | name | String | 图层名称 |
-| layerType | Number | 图层类型(值为GetAnchorAllLayers中的type图层类型 |
-| layerDesc | String | 图层描述(json对象字符串格式，暂仅支持摄像头，其他图层类型待支持) |
+| layerType | Number | 图层类型(值为GetAnchorAllLayers中的type图层类型) |
+| layerDesc | String | 图层描述(值为json对象字符串格式，暂仅支持摄像头，其他图层类型待支持) |
 
 * type取值：
   
@@ -194,6 +194,7 @@ message json对象字段描述
 注：被选/失选(暂不支持)
 
 * layerDesc取值：(不同图层类型，有不同的描述内容)，以摄像头为例：
+
 | 字段 | 类型 | 取值说明 |
 | - | - | - |
 | cameraName | String | 摄像头名称 |
